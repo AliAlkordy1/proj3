@@ -1,0 +1,205 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+margin: 0;
+box-sizing: border-box;
+display: flex;
+justify-content: center;
+align-items: center;
+
+background-color: #E6EAF8;
+height: 100vh;
+}
+
+.caontiner{
+
+  width: 1213px;
+  height: 854px;
+  background-color: white;
+  border-radius: 16px ;
+  
+}
+/* top bar */
+
+.topbar-container-of-the-container{
+  padding: 100px;
+}
+
+#users-h1{
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 32px;
+}
+
+.topbar-container{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+
+.search-input{
+
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='32' height='32' viewBox='0 0 24 24'%3E%3Cpath fill='%23000' d='m19.485 20.154l-6.262-6.262q-.75.639-1.725.989t-1.96.35q-2.402 0-4.066-1.663T3.808 9.503T5.47 5.436t4.064-1.667t4.068 1.664T15.268 9.5q0 1.042-.369 2.017t-.97 1.668l6.262 6.261zM9.539 14.23q1.99 0 3.36-1.37t1.37-3.361t-1.37-3.36t-3.36-1.37t-3.361 1.37t-1.37 3.36t1.37 3.36t3.36 1.37'/%3E%3C/svg%3E");
+
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-position: 10px center; /* Position the icon */
+  background-size: 32px 32px; /* Adjust the size of the icon */
+
+  
+  box-sizing: border-box; /* Ensure padding and border are included in the width and height */
+  
+  border: #BFC8E5 1px solid;
+  border-radius: 8px;
+  padding: 16px 16px 16px 50px;
+  outline: none;
+  width: 300px;
+  height: 64px;
+
+
+}
+
+.ul-topbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+
+
+
+}
+
+.li-topbar{
+  padding: 16px;
+  cursor: pointer;
+  border-radius: 8px;
+  text-decoration: none;
+  color: #151B32;
+}
+
+.active-link {
+  background-color: #849FFF; /* Change this to any color you prefer */
+  color: white;
+}
+.active-link:visited {
+  background-color: #849FFF; /* Change this to any color you prefer */
+  color: white;
+}
+.li-topbar:visited{
+  color: #151B32;
+}
+.li-topbar:hover{
+  background-color: #849FFF;
+  color: white;
+
+
+}
+/* .li-topbar:hover:visited{
+  background-color: #849FFF;
+  color: white;
+
+} */
+
+/* new users */
+
+.newusers-container{
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  gap: 16px;
+  flex-wrap: wrap;
+  width: 1013px;
+  height: 432px;
+  padding: 0px 100px 100px 100px;
+  
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: start;
+  height: 208px; 
+  width: 327px;
+  padding: 24px;
+  background: #FBFCFF;
+  border-radius: 16px;
+  box-sizing: border-box;
+  
+  gap: 10px;
+}
+
+.card-container:hover{
+border: #BFC8E5 1px solid;
+box-shadow:#DAE0F9B2 0px 8px 23px 0px ;
+cursor: pointer;
+
+}
+.card-img{
+
+  border-radius: 50%;
+  width: 97px;
+  height: 97px;
+  object-fit: cover;
+  
+}
+
+.info-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  
+
+}
+
+#name-font{
+  font-family: "Merriweather", serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 18px;
+
+
+}
+
+#address-font{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 14px;
+
+}
+
+.hobbies{
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap; 
+  gap: 10px; 
+  color: #516FD4;
+  margin-top: 10px
+  
+}
+
+
+.hobby {
+  border: #BFC8E6 1px solid;
+  border-radius: 10px;
+  padding: 2px 8px 2px 8px;
+  
+ 
+
+} 
